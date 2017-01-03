@@ -63,10 +63,22 @@ body {
 img{
     position: absolute;
     z-index: -1;
-    left: 40px;
-    top: 400px;
+    width:100%;
+    height: auto;
+    opacity: 0.3;
     }
-    
+ #plaincont
+    {
+        position: relative;
+    }
+  #topleft
+    {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+        
+    }
 </style>
 </head>
 <body>
@@ -79,7 +91,10 @@ img{
     
 <p class="groove"> gotti </p>
 
- <img src= "uglyeli.png" width = "100" height="140">
+<div id = "plaincont">
+    <img src= "uglyeli.png" width = "100" height="140">
+    <div id = "topleft">Eli pls stop</div>
+</div>                                                  
     
  <p><b><a href="second.html">Link Test</a></b></p>
     
