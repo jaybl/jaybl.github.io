@@ -139,16 +139,39 @@ img{
     background: white;
  
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
 </head>
 <body>
 
 <ul>
   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><div class="dropdown">
+  <span>Contact</span>
+  <div class="dropdown-content">
+    <p>Coffee</p>
+      <p>Cheetos!</p>
+      <p>Chicken</p>
+  </div>
+</div></li>
 </ul>
 
     <p><br><br></p>
