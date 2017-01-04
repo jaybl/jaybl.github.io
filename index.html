@@ -33,10 +33,14 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
     float: left;
+    border-right: 1px solid #bbb;
 }
 
 li a {
@@ -47,6 +51,9 @@ li a {
     text-decoration: none;
 }
 
+    li:last-child {
+    border-right: none;
+}
 li a:hover:not(.active) {
     background-color: lightblue;
 }
