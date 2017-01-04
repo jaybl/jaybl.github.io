@@ -13,9 +13,51 @@
   #seconddiv:hover p{
     display: block;
   }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+   
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    li:last-child {
+    border-right: none;
+}
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+li a.active {
+    color: white;
+    background-color: maroon;
+}
 </style>
 </head>
 <body>
+
+  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="second.html">About</a></li>
+  <li><a href="#projects">Projects</a></li>
+    <li><a href="#Contact">Contact</a></li>
+</ul>
+  
 <div id = "seconddiv">what could this be???
 <p id = "second">we made it</p>
   </div>
