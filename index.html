@@ -26,42 +26,34 @@ body {
     background-position: left top;
     background-attachment: fixed;
 }
-    ul {
-        position: fixed;
-    top: 0;
-    width: 100%;
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-
- 
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
-    li a {
+
+li {
+    float: left;
+}
+
+li a {
     display: block;
-    color: white;
+    color: #666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-        
 }
 
-    li {
- border-right: 1px solid #bbb;
-        float: left;
-   
+li a:hover:not(.active) {
+    background-color: #ddd;
 }
 
-
-li:last-child {
-    border-right: none;
-}
-
-    
-li a:hover {
-    background-color: #555;
+li a.active {
     color: white;
+    background-color: #4CAF50;
 }
 #testlist{
     list-style-type: square;
@@ -140,20 +132,18 @@ img{
     background: white;
  
 }
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
+
 </style>
 </head>
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">About</a></li>
-  <li><a href="#contact">Projects</a></li>
-  <li><a href="#about">Contact</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
+
     
 <h1 class="center">Jay Lin</h1>
     
