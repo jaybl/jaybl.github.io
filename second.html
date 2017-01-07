@@ -93,6 +93,10 @@ li a.active {
     top: 40%;
     left: 105%;
     z-index: 1;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
 }
   /*Right tooltip arrow*/
 .tooltip .tooltiptext::after {
@@ -108,6 +112,7 @@ li a.active {
   
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    opacity: 1;
 }
   
 </style>
