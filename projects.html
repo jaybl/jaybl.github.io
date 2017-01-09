@@ -65,11 +65,19 @@ li a.active {
     display: block;
   }
   input[type=text] {
-    width: 100%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 130px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+  input[type=text]:focus {
+    background-color: lightblue;
+    border: 3px solid #555;
+     width: 100%;
+}
+ 
 </style>
 </head>
 <body>
@@ -97,7 +105,7 @@ li a.active {
   <label for="lname">Branch Name</label>
   <input type="text" id="lname" name="lname">
   <label for="lname">main</label>
-  <input type="text" id="main" name="main">
+  <input type="text" id="main" name="Main" placeholder="Nut">
 </form>
   
   <p>pranks' on you it doesnt actually do anything</p>
