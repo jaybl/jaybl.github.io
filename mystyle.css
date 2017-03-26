@@ -10,15 +10,18 @@ html{
 
 .nav-pills{
     background-color: white;
+    border-radius: 0;
 }
 
 .nav-pills > li > a{
+    background-color: white;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid red;
 }
 
 .nav-pills > li > a:hover{
+    background-color: white;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid black;
