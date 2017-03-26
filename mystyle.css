@@ -26,3 +26,7 @@ html{
     border-radius: 0;
     border-bottom: 1px solid black;
 }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: white !important;   
+}
