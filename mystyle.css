@@ -25,7 +25,7 @@ html{
     color: #337ab7 !important;
 }
 
-.nav-pills > li > a:hover, .nav-pills>li>a:focus{
+.nav-pills > li > a:hover, .nav-pills>li>a:focus, .nav-pills>li>a.active{
     text-decoration: none;
     background-color: white !important;
     border: none;
