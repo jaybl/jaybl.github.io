@@ -6,7 +6,7 @@ html{
     margin-top: 20px;
     border: 2px solid black;
     height: 80%;
-    padding: 20px;
+    padding: 20px !important;
 }
 .nav{
     color: #337ab7 !important;
@@ -15,6 +15,7 @@ html{
 .nav-tabs>li, .nav-pills>li{
     float: none !important;
     display: inline-block !important;
+    margin-left: 5px;
 }
 
 .nav-tabs, .nav-pills{
