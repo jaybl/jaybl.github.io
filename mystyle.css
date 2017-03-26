@@ -6,7 +6,7 @@ html{
     margin-top: 20px;
     border: 2px solid black;
     height: 80%;
-    padding: 20px !important;
+    padding: 10px !important;
 }
 
 .nav-pills li {
@@ -50,6 +50,7 @@ html{
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
     background-color: white !important;   
     color: #337ab7 !important;
+    border-bottom: 1px solid black;
 }
 
 .center-pills{
@@ -57,6 +58,4 @@ html{
     justify-content: center;
 }
 
-#home, #about, #contact, #projects{
-    padding: 20px;
-}
+
