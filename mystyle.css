@@ -8,6 +8,11 @@ html{
     height: 80%;
     padding: 20px !important;
 }
+
+.nav-pills li {
+    margin-left: 10px; 
+} 
+
 .nav{
     color: #337ab7 !important;
 }
@@ -50,4 +55,8 @@ html{
 .center-pills{
     display: flex;
     justify-content: center;
+}
+
+#home, #about, #contact, #projects{
+    padding: 20px;
 }
