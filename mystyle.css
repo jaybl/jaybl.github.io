@@ -2,6 +2,24 @@ html{
     height:100%;
 }
 
-body{
-    
-  }
+.tab-content{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 80%;
+}
+
+.nav-tabs{
+    background-color: white;
+}
+
+.nav-tabs > li > a{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid red;
+}
+
+.nav-tabs > li > a:hover{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
