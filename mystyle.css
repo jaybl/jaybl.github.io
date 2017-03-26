@@ -11,10 +11,16 @@ html{
     color: #337ab7 !important;
 }
 
+.nav-pills>li{
+    float: none;
+    display: inline-block;
+}
+
 .nav-pills{
     background-color: white !important;
     color: #337ab7 !important;
     border-radius: 0;
+    text-align: center;
 }
 
 .nav-pills > li > a{
