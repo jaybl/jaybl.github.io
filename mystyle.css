@@ -58,4 +58,9 @@ html{
     justify-content: center;
 }
 
-
+.downloadBtnClear{
+    background-color: white !important;
+    border: none !important;
+    border-radius: 0 !important;
+    
+}
