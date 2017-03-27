@@ -62,5 +62,10 @@ html{
     background-color: white !important;
     border: none !important;
     border-radius: 0 !important;
+    text-decoration: none !important;
     
+}
+
+.downloadIcon-small{
+    font-size: 10px;
 }
