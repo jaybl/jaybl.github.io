@@ -58,4 +58,6 @@ html{
     justify-content: center;
 }
 
-
+#nameHeaderDiv{
+    text-align: center;
+}
